@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hkxt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Anya\AppData\Local\Temp\RSP629D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/hkxt.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\航空系统\sssss\03171305.cpp"
+]
+Creating command line "cl.exe @C:\Users\Anya\AppData\Local\Temp\RSP629D.tmp" 
+Creating temporary file "C:\Users\Anya\AppData\Local\Temp\RSP629E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/hkxt.pdb" /debug /machine:I386 /out:"Debug/hkxt.exe" /pdbtype:sept 
+".\Debug\03171305.obj"
+".\Debug\hkxt1.obj"
+]
+Creating command line "link.exe @C:\Users\Anya\AppData\Local\Temp\RSP629E.tmp"
+<h3>Output Window</h3>
+Compiling...
+03171305.cpp
+Linking...
+hkxt1.obj : error LNK2005: "void __cdecl readinfo_book(struct SbookList *)" (?readinfo_book@@YAXPAUSbookList@@@Z) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl readinfo(struct List *)" (?readinfo@@YAXPAUList@@@Z) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl rewrite(struct List)" (?rewrite@@YAXUList@@@Z) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl printOneofAirMsg(int)" (?printOneofAirMsg@@YAXH@Z) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl printAllofAirMsg(void)" (?printAllofAirMsg@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl searchbyAirno(void)" (?searchbyAirno@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl searchbystartPlace(void)" (?searchbystartPlace@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl searchbyEndPlace(void)" (?searchbyEndPlace@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "struct airinfo * __cdecl findByAirno(void)" (?findByAirno@@YAPAUairinfo@@XZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "struct Book * __cdecl insertlink(struct Book *,char * const,int,char * const,int,char * const)" (?insertlink@@YAPAUBook@@PAU1@QADH1H1@Z) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl InitOrder(void)" (?InitOrder@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl printOrderCustomByAirNum1(void)" (?printOrderCustomByAirNum1@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl orderTicket(void)" (?orderTicket@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl refund_ticket(void)" (?refund_ticket@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl meau1(void)" (?meau1@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "void __cdecl meau2(void)" (?meau2@@YAXXZ) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: _main already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "struct List L" (?L@@3UList@@A) already defined in 03171305.obj
+hkxt1.obj : error LNK2005: "struct SbookList B" (?B@@3USbookList@@A) already defined in 03171305.obj
+Debug/hkxt.exe : fatal error LNK1169: one or more multiply defined symbols found
+执行 link.exe 时出错.
+
+
+
+<h3>Results</h3>
+hkxt.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
